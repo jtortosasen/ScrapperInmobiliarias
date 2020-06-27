@@ -1,0 +1,8 @@
+*.suo
+*.sln
+*.pyproj
+*/.idea
+**/**/__pycache__
+lib
+env
+**/**/.idea

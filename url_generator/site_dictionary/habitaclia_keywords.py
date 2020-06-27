@@ -1,0 +1,75 @@
+habitaclia_keywords ={
+    # 'pattern' : [[('in', 'override'), 'district', 'city']],
+    'base_url': 'https://www.habitaclia.com/alquiler-viviendas-',
+    'extraFilter':{
+        'parking': 'parking_',
+        'swimming_pool': 'piscina_',
+        'terrace_or_patio': 'terraza_',
+        'garden': 'jardin_',
+        'elevator': 'ascensor_'
+    },
+    'equipment': {
+        'no_furnished': '',
+        'furnished': 'amueblado_',
+   },
+   'city':{
+        'district': {
+            'surroundings_of_madrid': '_-madrid.htm?ordenar=mas_recientes&',
+            'surroundings_of_barcelona': '_-barcelones.htm?ordenar=mas_recientes&'
+        },
+        'barcelona': '_-barcelona.htm?ordenar=mas_recientes',
+        'madrid': '_-madrid.htm?ordenar=mas_recientes',
+        'hospitalet': '_-hospitalet_de_llobregat.htm?ordenar=mas_recientes',
+   },
+   'bedroom': {
+        'one': '&hab=1',
+        'two': '&hab=2',
+        'three': '&hab=3',
+        'four_or_more': '&hab=4'
+    },
+    'minimumPrice': '&pmin={}',
+    'maximumPrice': '&pmax={}',
+    'district':{
+        'les_corts': '&coddists=400',
+        'sarria_sant_gervasi': '&coddists=500',
+        'gracia': '&coddists=600',
+        'horta_ginardo': '&coddists=700',
+        'nou_barris': '&coddists=800',
+        'sant_andreu': '&coddists=900',
+        'sant_marti': '&coddists=1000',
+        'eixample': '&coddists=200',
+        'ciutat_vella': '&coddists=100',
+        'sants_montjuic': '&coddists=300',
+        'arganzuelas': '&coddists=1500',
+        'barajas': '&coddists=700',
+        'carabanchel': '&coddists=1200',
+        'centro': '&coddists=1800',
+        'chamartin': '&coddists=400',
+        'ciudad_lineal': '&coddists=500',
+        'fuencarral_el_pardo': '&coddists=100',
+        'hortaleza': '&coddists=600',
+        'latina': '&coddists=2000',
+        'moncloa_aravaca': '&coddists=200',
+        'moratalaz': '&coddists=2100',
+        'puente_de_vallecas': '&coddists=1100',
+        'retiro': '&coddists=1400',
+        'salamanca': '&coddists=1300',
+        'san_blas': '&coddists=800',
+        'tetuan': '&coddists=300',
+        'usera': '&coddists=1600',
+        'vicalvaro': '&coddists=900',
+        'villa_de_vallecas': '&coddists=100',
+        'villaverde': '&coddists=1700',
+    },
+    'dwelling':{
+        'loft': '&st=1,4,9,11,13,',
+        'studio': '&st=1,4,9,11,13,',
+        'flat': '&st=1,4,9,11,13,',
+        'apartment': '&st=1,4,9,11,13,',
+        'duplex': '&st=2,14,',
+        'penthouse': '&st=7',
+        'townhouse': '&st=3,6,8,10,12,15',
+        'house': '&st=3,6,8,10,12,15',
+        'rural_property': '&st=3,6,8,10,12,15'
+    }
+}

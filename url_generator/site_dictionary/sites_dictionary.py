@@ -1,0 +1,1 @@
+list_keywords = ['enalquiler_keywords', 'idealista_keywords', 'fotocasa_keywords', 'habitaclia_keywords']
